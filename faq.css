@@ -1,0 +1,81 @@
+.home{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    align-items: center;
+    margin: autc;
+}
+.home>fieldset{
+    width: auto;
+    height: 20px;
+}
+.home h1{
+    margin:auto;
+}
+.home input{
+    width: 300px;
+    height: 30px;
+    margin-left: auto;
+    font-size: 20px;
+    text-align: left;
+}
+.home button{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 30px;
+    font-size: 18px;
+}
+
+.nav{
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+.nav>button{
+    margin-top: -15px;
+    margin-bottom:-15px;
+    border-right: 1px solid lightgray;
+    border-top: 0px;
+    border-bottom:0px ;
+    border-left: 0px;
+    background-color: white;
+}
+.nav>button:hover{
+    background-color: lightgray;
+}
+.nav>button:last-child:hover{
+        border-left: 1px solid lightgrey;
+        background-color: lightgreen;
+}
+.nav>button:first-child:hover{
+    background-color: lightblue;
+}
+.nav>button:last-child{
+    margin-left: auto;
+    border-left: 1px solid lightgray;
+}
+.nav>:button:first-child:hover{
+    background-color: lightblue;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.foot{
+    margin-left: 3%;
+    padding: 3%;
+    display: flex;
+
+}
+.f1{
+    border-radius: 100px;
+    height: 30px;
+    background-color: whitesmoke;
+    padding: auto;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+}
